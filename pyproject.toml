@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tetris-fight"
+version = "0.1.0"
+description = ""
+authors = ["Ernie Lee <dy99520@gmail.com>"]
+readme = "README.md"
+packages = [{include = "tetris-fight"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "1.26.4"
+pygame = "2.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
